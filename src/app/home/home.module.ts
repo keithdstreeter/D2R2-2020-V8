@@ -4,6 +4,9 @@ import { NativeScriptCommonModule } from '@nativescript/angular'
 import { HomeRoutingModule } from './home-routing.module'
 import { HomeComponent } from './home.component'
 import { ItemDetailComponent } from './item-detail/item-detail.component'
+//import { RideComponent } from './ride'
+
+
 
 @NgModule({
   imports: [NativeScriptCommonModule, HomeRoutingModule],

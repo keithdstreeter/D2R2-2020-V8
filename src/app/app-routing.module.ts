@@ -27,6 +27,13 @@ const routes: Routes = [
     loadChildren: () => import('~/app/search/search.module').then((m) => m.SearchModule),
     outlet: 'searchTab',
   },
+
+  {
+    path: 'ride',
+    component: NSEmptyOutletComponent,
+    loadChildren: () => import('~/app/ride/ride.module').then((m) => m.RideModule),
+    outlet: 'rideTab',
+  },
 ]
 
 @NgModule({
